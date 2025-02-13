@@ -3002,4 +3002,108 @@ h6 {
 ============================================================================================ */
 /*---------------------------------------------------- */
 
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+    .header_area .main_menu {
+        padding: 10px 0;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .home_banner_area .banner_inner {
+        text-align: center;
+    }
+    .home_banner_area .banner_content h3 {
+        font-size: 24px;
+    }
+    .home_banner_area .banner_content p {
+        font-size: 14px;
+    }
+    .welcome_area .welcome_text h4 {
+        font-size: 20px;
+    }
+    .welcome_area .welcome_text p {
+        font-size: 14px;
+    }
+    .skill_item h4 {
+        font-size: 16px;
+    }
+    .skill_item .progress-bar {
+        height: 10px;
+    }
+    .mytabs_area .nav-tabs .nav-link {
+        font-size: 14px;
+    }
+    .mytabs_area .tab-content .media-body h4 {
+        font-size: 16px;
+    }
+    .mytabs_area .tab-content .media-body p {
+        font-size: 14px;
+    }
+    .home_gallery_area .main_title h2 {
+        font-size: 24px;
+    }
+    .home_gallery_area .main_title p {
+        font-size: 14px;
+    }
+    .footer_area .f_widget h3 {
+        font-size: 18px;
+    }
+    .footer_area .f_widget p {
+        font-size: 14px;
+    }
+}
+
+/* Styles for PC (desktop devices) */
+@media (min-width: 768px) {
+    .header_area .main_menu {
+        padding: 20px 0;
+    }
+    .navbar-brand img {
+        width: 150px;
+    }
+    .home_banner_area .banner_inner {
+        text-align: left;
+    }
+    .home_banner_area .banner_content h3 {
+        font-size: 36px;
+    }
+    .home_banner_area .banner_content p {
+        font-size: 18px;
+    }
+    .welcome_area .welcome_text h4 {
+        font-size: 28px;
+    }
+    .welcome_area .welcome_text p {
+        font-size: 18px;
+    }
+    .skill_item h4 {
+        font-size: 20px;
+    }
+    .skill_item .progress-bar {
+        height: 20px;
+    }
+    .mytabs_area .nav-tabs .nav-link {
+        font-size: 18px;
+    }
+    .mytabs_area .tab-content .media-body h4 {
+        font-size: 20px;
+    }
+    .mytabs_area .tab-content .media-body p {
+        font-size: 18px;
+    }
+    .home_gallery_area .main_title h2 {
+        font-size: 36px;
+    }
+    .home_gallery_area .main_title p {
+        font-size: 18px;
+    }
+    .footer_area .f_widget h3 {
+        font-size: 24px;
+    }
+    .footer_area .f_widget p {
+        font-size: 18px;
+    }
+}
+
 /*# sourceMappingURL=style.css.map */
